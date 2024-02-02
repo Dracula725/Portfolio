@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #080808;
     color:#fff;
@@ -308,4 +312,10 @@ form input,form textarea{
     color: #fff;
     font-size: 18px;
     border-radius: 6px;
+}
+
+#msg{
+color: #61b752;
+margin-top: -40px;
+display:block;
 }
