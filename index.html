@@ -1,153 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lakshaya - portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> 
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
     <div id="header">
-        <div class="container">
-            <nav>
-                <img src="pics/logo2.png" alt="logo" class="logo">
-                <ul>
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <!-- <li><a href="#">Services</a></li> -->
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact me</a></li>
-                </ul>
-            </nav>
-            <div class="header-text">
-                <p>Front-end Developer</p>
-                <h1>Hi I'm <span>Lakshaya K</span> <br>from Somewhere</h1>
-            </div>
+      <div class="container">
+        <nav>
+          <img src="pics/logo2.png" alt="logo" class="logo" />
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <!-- <li><a href="#">Services</a></li> -->
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact me</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Front-end Developer</p>
+          <h1>Hi I'm <span>Lakshaya K</span> <br />from Vijayawada</h1>
         </div>
+      </div>
     </div>
     <!-- -------this aint about shit-------- -->
     <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                    <img src="pics/pepe.jpeg">
-                </div>
-                <div class="about-col-2">
-                    <h1 class="sub-title">About Me</h1>
-                    <p>Hello! I'm Lakshaya, a skilled front-end developer proficient in HTML, CSS, JavaScript, and React. I bring a blend of creativity and technical expertise to every project. My journey in web development has equipped me with the ability to turn design concepts into functional, intuitive websites using the latest technologies.</p>
-                    <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                        <p class="tab-links" onclick="opentab('education')">Education</p>
-                    </div>
-                    <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                            <li><span>UI/UX</span><br>Designing Web interfaces</li>
-                            <li><span>Web Development</span><br>Web app Development</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="experience">
-                        <ul>
-                            <li><span>July 2023 - Sept 2023</span><br>Data Science Training at APSSDC.</li>
-                            <li><span>May 2023 - July 2023</span><br>Machine Learning Training at CORIZO.</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="education">
-                        <ul>
-                            <li><span>2021 - Current</span><br>BTech in CSE from SRM University.</li>
-                            <li><span>2019 - 2021</span><br>Intermediate(BIEAP) in Narayana Junior College.</li>
-                            <li><span>2019</span><br>Secondary from Narayana Group of Schools.</li>
-                        </ul>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="pics/pfp.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Hello! I'm Lakshaya, a skilled front-end developer proficient in
+              HTML, CSS, JavaScript, and React. I bring a blend of creativity
+              and technical expertise to every project. My journey in web
+              development has equipped me with the ability to turn design
+              concepts into functional, intuitive websites using the latest
+              technologies.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
             </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web interfaces</li>
+                <li><span>Web Development</span><br />Web app Development</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>July 2023 - Sept 2023</span><br />Data Science Training
+                  at APSSDC.
+                </li>
+                <li>
+                  <span>May 2023 - July 2023</span><br />Machine Learning
+                  Training at CORIZO.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2021 - Current</span><br />BTech in CSE from SRM
+                  University.
+                </li>
+                <li>
+                  <span>2019 - 2021</span><br />Intermediate(BIEAP) in Narayana
+                  Junior College.
+                </li>
+                <li>
+                  <span>2019</span><br />Secondary from Narayana Group of
+                  Schools.
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- ----------at your service------------- -->
-    <div id="services">
-
-    </div>
+    <div id="services"></div>
     <!-- ----------port my folio------------- -->
     <div id="portfolio">
-        <div class="container">
-            <h1 class="sub-title">My Work</h1>
-            <div class="work-list">
-                <div class="work">
-                    <img src="pics/work-1.png">
-                    <div class="layer">
-                        <h3>Accident Detection</h3>
-                        <p>Automatically detects accident based on multimodal data and notifies the authorities</p>
-                        <a hrf="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="pics/work-2.png">
-                    <div class="layer">
-                        <h3>Currency Converter</h3>
-                        <p>Lets you convert currency with real time updation of currency values.</p>
-                        <a hrf="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="pics/work-3.png">
-                    <div class="layer">
-                        <h3>Recomendation Package</h3>
-                        <p>Used to recommend products to users, tackled cold start problem etc.</p>
-                        <a hrf="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="pics/work-1.png" />
+            <div class="layer">
+              <h3>Accident Detection</h3>
+              <p>
+                Automatically detects accident based on multimodal data and
+                notifies the authorities
+              </p>
+              <a hrf="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
             </div>
-            <a href="https://github.com/Dracula725" class="btn" target="_blank">See more</a>
+          </div>
+          <div class="work">
+            <img src="pics/work-2.png" />
+            <div class="layer">
+              <h3>Currency Converter</h3>
+              <p>
+                Lets you convert currency with real time updation of currency
+                values.
+              </p>
+              <a hrf="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="pics/work-3.png" />
+            <div class="layer">
+              <h3>Recomendation Package</h3>
+              <p>
+                Used to recommend products to users, tackled cold start problem
+                etc.
+              </p>
+              <a hrf="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
         </div>
+        <a href="https://github.com/Dracula725" class="btn" target="_blank"
+          >See more</a
+        >
+      </div>
     </div>
 
     <!-- --------------contact---------------- -->
     <div id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="contact-left">
-                    <h1 class="sub-title">Contact Me</h1>
-                    <p><i class="fa-solid fa-paper-plane"></i> lakshaya_kondeti@outlook.com</p>
-                    <p><i class="fa-solid fa-phone"></i>+91 8074296030</p>
-                    <div class="social-icons">
-                        <a href=""><i class="fa-brands fa-facebook"></i></a>
-                        <a href="https://www.instagram.com/dracula7251"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="https://www.linkedin.com/in/lakshaya-k-053261245"><i class="fa-brands fa-linkedin"></i></a>
-                    </div>
-                    <a href="pics/res.pdf" download class="btn btn2">Download Resume</a>
-                </div>
-                <div class="contact-right">
-                    <form name="submit-to-google-sheet">
-                        <input type="text" name="Name" placeholder="Your Name" required>
-                        <input type="email" name="Email" placeholder="Your Email" required>
-                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                        <button type="submit" class="btn btn2">Submit</button>
-                    </form>
-                    <span id="msg"></span>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>
+              lakshaya_kondeti@outlook.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i>+91 8074296030</p>
+            <div class="social-icons">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/dracula7251"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/lakshaya-k-053261245"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
             </div>
+            <a href="pics/res.pdf" download class="btn btn2">Download Resume</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
         </div>
+      </div>
     </div>
     <script src="script.js"></script>
     <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbzTwTt2HMkldOrMt5bw0V89ZOgTwQ5047uVvC9MUzw_WjWcopnhlRkH3NSjf3sGuR7R/exec'
-        const form = document.forms['submit-to-google-sheet']
-        const msg=document.getElementById("msg");
-      
-        form.addEventListener('submit', e => {
-          e.preventDefault()
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => {
-                msg.innerHTML="Message sent succesfully";
-                setTimeout(function(){
-                msg.innerHTML="";
-            },5000)
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzTwTt2HMkldOrMt5bw0V89ZOgTwQ5047uVvC9MUzw_WjWcopnhlRkH3NSjf3sGuR7R/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent succesfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
             form.reset();
-            })
-            
-            .catch(error => console.error('Error!', error.message))
-        })
-      </script>
-</body>
+          })
+
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
 </html>
